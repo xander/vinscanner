@@ -1,0 +1,18 @@
+{
+  "name": "com.verticaldev.barcode",
+  "version": "1.0.0",
+  "displayName": "BarcodeApp",
+  "cordova": {
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "plugins": {
+      "phonegap-plugin-barcodescanner": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "~7.1.4",
+    "cordova-ios": "^4.5.5"
+  }
+}
